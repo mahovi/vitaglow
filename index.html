@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ═══ SEO BÁSICO ═══ -->
+<title>VitaGlow · Salud y Belleza con Ciencia | Health & Beauty Blog</title>
+<meta name="description" content="Consejos diarios de salud, belleza, bienestar y fitness respaldados por investigación científica. Artículos bilingües (ES/EN) basados en estudios publicados en revistas científicas.">
+<meta name="keywords" content="salud, belleza natural, bienestar, fitness, nutrición, skincare, meditación, ciencia, health, beauty, wellness">
+<meta name="author" content="VitaGlow Editorial">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://TU-DOMINIO.netlify.app/">
+
+<!-- ═══ HREFLANG BILINGÜE ═══ -->
+<link rel="alternate" hreflang="es" href="https://TU-DOMINIO.netlify.app/">
+<link rel="alternate" hreflang="en" href="https://TU-DOMINIO.netlify.app/">
+<link rel="alternate" hreflang="x-default" href="https://TU-DOMINIO.netlify.app/">
+
+<!-- ═══ OPEN GRAPH (redes sociales) ═══ -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="VitaGlow · Salud y Belleza con Ciencia">
+<meta property="og:description" content="Consejos diarios de salud, belleza y bienestar respaldados por investigación científica real.">
+<meta property="og:url" content="https://TU-DOMINIO.netlify.app/">
+<meta property="og:site_name" content="VitaGlow">
+<meta property="og:locale" content="es_MX">
+<meta property="og:locale:alternate" content="en_US">
+
+<!-- ═══ TWITTER / X CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VitaGlow · Salud y Belleza con Ciencia">
+<meta name="twitter:description" content="Artículos de salud, belleza, bienestar y fitness basados en investigación científica publicada.">
+
+<!-- ═══ DATOS ESTRUCTURADOS JSON-LD ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "VitaGlow",
+  "description": "Blog bilingüe de salud, belleza, bienestar y fitness respaldado por investigación científica",
+  "url": "https://TU-DOMINIO.netlify.app/",
+  "inLanguage": ["es", "en"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "VitaGlow",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://TU-DOMINIO.netlify.app/logo.png"
+    }
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Los arándanos y la memoria: lo que dice la ciencia",
+      "description": "Estudio publicado en Nutritional Neuroscience demuestra mejoras en memoria espacial tras 12 semanas de consumo de arándanos.",
+      "datePublished": "2026-06-17",
+      "author": {"@type": "Organization", "name": "VitaGlow Editorial"},
+      "keywords": "arándanos, memoria, antocianinas, neurociencia, nutrición"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Vitamina C tópica: el ingrediente anti-edad más estudiado",
+      "description": "Más de 50 estudios clínicos confirman que el ácido ascórbico al 10-20% reduce manchas y estimula el colágeno.",
+      "datePublished": "2026-06-16",
+      "author": {"@type": "Organization", "name": "VitaGlow Editorial"},
+      "keywords": "vitamina C, skincare, colágeno, anti-edad, dermatología"
+    }
+  ]
+}
+</script>
+
+<!-- ═══ GOOGLE SEARCH CONSOLE VERIFICATION ═══ -->
+<!-- Reemplaza el content con tu código de verificación de Google Search Console -->
+<meta name="google-site-verification" content="TU-CODIGO-DE-VERIFICACION-AQUI">
+<style>
+  :root {
+    --rose: #6b7a50;
+    --rose-light: #e6eadc;
+    --sage: #4a5a3a;
+    --sage-light: #dde3d2;
+    --gold: #a89060;
+    --dark: #1c1b18;
+    --mid: #6a6660;
+    --light: #f0ebe0;
+    --beige: #e8e0ce;
+    --white: #faf8f4;
+    --charcoal: #3a3832;
+    --radius: 14px;
+    --shadow: 0 4px 24px rgba(28,27,24,.10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; background: var(--light); color: var(--dark); }
+  ::selection { background: var(--rose-light); color: var(--dark); }
+  a { color: inherit; text-decoration: none; }
+
+  /* ── HEADER ── */
+  header {
+    background: linear-gradient(135deg, #faf8f4 0%, #eee8db 100%);
+    border-bottom: 1px solid #d8d2c4;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .header-inner {
+    max-width: 1100px; margin: auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 24px;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; }
+  .logo-icon { font-size: 28px; }
+  .logo-text { font-size: 22px; font-weight: bold; color: var(--rose); letter-spacing: -0.5px; }
+  .logo-sub { font-size: 11px; color: var(--mid); font-family: sans-serif; letter-spacing: 2px; text-transform: uppercase; }
+  nav { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .nav-btn {
+    padding: 6px 14px; border-radius: 20px; font-size: 13px; font-family: sans-serif;
+    cursor: pointer; border: 1.5px solid transparent; transition: all .2s;
+    background: transparent; color: var(--mid);
+  }
+  .nav-btn:hover, .nav-btn.active { background: var(--dark); color: var(--light); border-color: var(--dark); }
+  .nav-btn.sage:hover, .nav-btn.sage.active { background: var(--sage); border-color: var(--sage); color: var(--white); }
+  .lang-toggle {
+    padding: 6px 14px; border-radius: 20px; font-size: 13px; font-family: sans-serif;
+    cursor: pointer; border: 1.5px solid var(--charcoal); color: var(--charcoal); background: var(--white);
+    font-weight: bold; transition: all .2s; margin-left: 8px;
+  }
+  .lang-toggle:hover { background: var(--dark); color: var(--light); border-color: var(--dark); }
+
+  /* ── HERO ── */
+  .hero {
+    max-width: 1100px; margin: 36px auto 0; padding: 0 24px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center;
+  }
+  .hero-badge {
+    display: inline-block; background: var(--rose-light); color: var(--rose);
+    font-family: sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px;
+    text-transform: uppercase; padding: 5px 14px; border-radius: 20px; margin-bottom: 16px;
+  }
+  .hero h1 { font-size: 38px; line-height: 1.2; color: var(--dark); margin-bottom: 14px; }
+  .hero h1 span { color: var(--rose); }
+  .hero-desc { font-size: 16px; color: var(--mid); line-height: 1.7; margin-bottom: 24px; font-family: sans-serif; }
+  .hero-cta {
+    display: inline-block; background: var(--dark); color: var(--white);
+    padding: 12px 28px; border-radius: 30px; font-family: sans-serif;
+    font-weight: 600; font-size: 15px; transition: transform .2s, box-shadow .2s;
+    box-shadow: 0 4px 18px rgba(28,27,24,.25);
+  }
+  .hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(107,122,80,.40); }
+  .hero-visual {
+    background: linear-gradient(135deg, #dde3d2, #e8e0ce);
+    border-radius: 24px; padding: 36px; text-align: center; font-size: 80px;
+    min-height: 260px; display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .hero-visual::before {
+    content: ''; position: absolute; width: 180px; height: 180px;
+    background: rgba(255,255,255,.5); border-radius: 50%; top: -40px; right: -40px;
+  }
+
+  /* ── STATS BAR ── */
+  .stats-bar {
+    max-width: 1100px; margin: 32px auto; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+  }
+  .stat-card {
+    background: var(--white); border-radius: var(--radius); padding: 20px 16px;
+    text-align: center; box-shadow: var(--shadow);
+  }
+  .stat-number { font-size: 28px; font-weight: bold; color: var(--sage); }
+  .stat-label { font-family: sans-serif; font-size: 12px; color: var(--mid); margin-top: 4px; }
+
+  /* ── SECTION ── */
+  .section { max-width: 1100px; margin: 0 auto 56px; padding: 0 24px; }
+  .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+  .section-title {
+    font-size: 24px; color: var(--dark);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-title span { font-size: 22px; }
+  .see-all { font-family: sans-serif; font-size: 13px; color: var(--rose); font-weight: 600; cursor: pointer; }
+  .see-all:hover { text-decoration: underline; }
+
+  /* ── ARTICLE CARDS ── */
+  .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .card {
+    background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow);
+    overflow: hidden; transition: transform .2s, box-shadow .2s; cursor: pointer;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 12px 36px rgba(44,44,58,.14); }
+  .card-img {
+    height: 160px; display: flex; align-items: center; justify-content: center;
+    font-size: 56px; position: relative;
+  }
+  .card-img.health { background: linear-gradient(135deg, #dde3d0, #cfd8c0); }
+  .card-img.beauty { background: linear-gradient(135deg, #e8e0ce, #ddd4be); }
+  .card-img.mental { background: linear-gradient(135deg, #d8d8d0, #c8cac0); }
+  .card-img.fitness { background: linear-gradient(135deg, #e4dece, #d8d0bc); }
+  .card-cat {
+    position: absolute; top: 12px; left: 12px;
+    background: rgba(255,255,255,.9); backdrop-filter: blur(4px);
+    font-family: sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+    text-transform: uppercase; padding: 4px 10px; border-radius: 12px;
+  }
+  .card-cat.health { color: #3d5230; }
+  .card-cat.beauty { color: #5a4e30; }
+  .card-cat.mental { color: #484840; }
+  .card-cat.fitness { color: #6a5a30; }
+  .card-body { padding: 20px; }
+  .card-date { font-family: sans-serif; font-size: 11px; color: #aaa; margin-bottom: 8px; }
+  .card-title { font-size: 17px; line-height: 1.4; margin-bottom: 10px; color: var(--dark); }
+  .card-excerpt { font-family: sans-serif; font-size: 13px; color: var(--mid); line-height: 1.6; margin-bottom: 14px; }
+  .card-footer { display: flex; align-items: center; justify-content: space-between; }
+  .card-time { font-family: sans-serif; font-size: 11px; color: #bbb; }
+  .card-read { font-family: sans-serif; font-size: 12px; color: var(--rose); font-weight: 600; }
+  .card-source {
+    font-family: sans-serif; font-size: 11px; color: var(--sage); font-weight: 600;
+    background: var(--sage-light); padding: 3px 8px; border-radius: 8px;
+    display: inline-block; margin-bottom: 10px;
+  }
+
+  /* ── FEATURED ARTICLE ── */
+  .featured-article {
+    background: var(--white); border-radius: 20px; box-shadow: var(--shadow);
+    overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 48px;
+  }
+  .featured-img {
+    background: linear-gradient(135deg, #dde3d0 0%, #e8e0ce 100%);
+    display: flex; align-items: center; justify-content: center; font-size: 100px;
+    min-height: 340px; position: relative; padding: 40px;
+  }
+  .featured-badge {
+    position: absolute; top: 20px; left: 20px; background: var(--rose); color: white;
+    font-family: sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+    text-transform: uppercase; padding: 5px 14px; border-radius: 12px;
+  }
+  .featured-body { padding: 40px; display: flex; flex-direction: column; justify-content: center; }
+  .featured-cat { color: var(--rose); font-family: sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+  .featured-body h2 { font-size: 26px; line-height: 1.3; margin-bottom: 14px; }
+  .featured-body p { font-family: sans-serif; font-size: 14px; color: var(--mid); line-height: 1.7; margin-bottom: 16px; }
+  .featured-source { font-family: sans-serif; font-size: 12px; color: var(--sage); background: var(--sage-light); display: inline-block; padding: 5px 12px; border-radius: 10px; margin-bottom: 20px; }
+  .read-more-btn {
+    display: inline-block; background: var(--rose); color: white;
+    padding: 10px 24px; border-radius: 24px; font-family: sans-serif;
+    font-weight: 600; font-size: 14px; width: fit-content; transition: all .2s;
+  }
+  .read-more-btn:hover { opacity: .85; }
+
+  /* ── INLINE EXPANDED ARTICLE ── */
+  .inline-article {
+    background: var(--white); border-radius: 20px; box-shadow: var(--shadow);
+    overflow: hidden; margin-bottom: 40px;
+  }
+  .inline-article-top {
+    display: grid; grid-template-columns: 260px 1fr;
+  }
+  .inline-article-visual {
+    display: flex; align-items: center; justify-content: center;
+    font-size: 88px; position: relative; min-height: 220px;
+  }
+  .inline-article-visual.health { background: linear-gradient(145deg, #dde3d0, #cfd8c0); }
+  .inline-article-visual.beauty { background: linear-gradient(145deg, #e8e0ce, #ddd4be); }
+  .inline-badge {
+    position: absolute; top: 16px; left: 16px;
+    background: var(--dark); color: var(--light);
+    font-family: sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+    text-transform: uppercase; padding: 5px 12px; border-radius: 10px;
+  }
+  .inline-article-intro {
+    padding: 32px 36px; display: flex; flex-direction: column; justify-content: center;
+    border-bottom: 1px solid #e4dfd4;
+  }
+  .inline-cat {
+    font-family: sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--rose); margin-bottom: 10px;
+  }
+  .inline-article-intro h2 { font-size: 24px; line-height: 1.3; margin-bottom: 10px; color: var(--dark); }
+  .inline-meta { font-family: sans-serif; font-size: 12px; color: #aaa; margin-bottom: 14px; }
+  .inline-source {
+    font-family: sans-serif; font-size: 12px; color: var(--sage); background: var(--sage-light);
+    display: inline-block; padding: 5px 12px; border-radius: 10px; margin-bottom: 14px;
+  }
+  .inline-lead {
+    font-family: sans-serif; font-size: 14px; color: var(--mid); line-height: 1.7;
+  }
+  .inline-article-body {
+    padding: 32px 36px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 32px;
+  }
+  .inline-article-body.single { grid-template-columns: 1fr; }
+  .inline-col h3 {
+    font-size: 16px; color: var(--dark); margin-bottom: 10px;
+    padding-bottom: 6px; border-bottom: 2px solid var(--rose-light);
+  }
+  .inline-col p {
+    font-family: sans-serif; font-size: 13px; color: var(--mid);
+    line-height: 1.7; margin-bottom: 12px;
+  }
+  .inline-col ul { margin-left: 16px; }
+  .inline-col ul li {
+    font-family: sans-serif; font-size: 13px; color: var(--mid);
+    line-height: 1.6; margin-bottom: 6px;
+  }
+  .inline-quote {
+    border-left: 3px solid var(--rose); background: var(--rose-light);
+    padding: 12px 16px; border-radius: 0 8px 8px 0; font-style: italic;
+    font-size: 13px; color: var(--charcoal); font-family: sans-serif;
+    margin-top: 12px; line-height: 1.6;
+  }
+  .inline-key-fact {
+    background: var(--sage-light); border-radius: 12px; padding: 16px;
+    margin-bottom: 14px;
+  }
+  .inline-key-fact .kf-number {
+    font-size: 28px; font-weight: bold; color: var(--sage); line-height: 1;
+  }
+  .inline-key-fact .kf-label {
+    font-family: sans-serif; font-size: 12px; color: var(--mid); margin-top: 4px;
+  }
+  .inline-key-facts-row {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px;
+  }
+  .inline-article-affiliate {
+    background: linear-gradient(135deg, #f0ebe0, #e8e2d4);
+    border-top: 1px solid #cec8b8; padding: 28px 36px;
+  }
+  .inline-article-affiliate .affiliate-title { margin-bottom: 4px; }
+  @media (max-width: 768px) {
+    .inline-article-top { grid-template-columns: 1fr; }
+    .inline-article-visual { min-height: 160px; font-size: 64px; }
+    .inline-article-body { grid-template-columns: 1fr; gap: 20px; }
+    .inline-key-facts-row { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* ── FULL ARTICLE MODAL ── */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5);
+    z-index: 1000; overflow-y: auto; padding: 40px 20px;
+  }
+  .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; }
+  .modal {
+    background: var(--white); border-radius: 20px; max-width: 760px; width: 100%;
+    padding: 48px; position: relative; margin: auto;
+  }
+  .modal-close {
+    position: absolute; top: 20px; right: 24px; font-size: 28px; cursor: pointer;
+    color: var(--mid); line-height: 1; background: none; border: none;
+  }
+  .modal-cat { color: var(--rose); font-family: sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+  .modal h2 { font-size: 30px; line-height: 1.3; margin-bottom: 8px; }
+  .modal-meta { font-family: sans-serif; font-size: 12px; color: #aaa; margin-bottom: 24px; }
+  .modal-source-box {
+    background: var(--sage-light); border-left: 4px solid var(--sage);
+    padding: 14px 18px; border-radius: 8px; margin-bottom: 24px;
+    font-family: sans-serif; font-size: 13px; color: var(--mid);
+  }
+  .modal-source-box strong { color: var(--sage); }
+  .modal-body { font-size: 16px; line-height: 1.8; color: var(--dark); }
+  .modal-body h3 { font-size: 19px; color: var(--dark); margin: 28px 0 12px; }
+  .modal-body p { margin-bottom: 16px; }
+  .modal-body ul { margin: 12px 0 16px 20px; }
+  .modal-body ul li { margin-bottom: 8px; }
+  .modal-body blockquote {
+    border-left: 4px solid var(--rose); margin: 24px 0;
+    padding: 14px 20px; background: var(--rose-light); border-radius: 0 8px 8px 0;
+    font-style: italic; color: var(--charcoal);
+  }
+
+  /* ── AFFILIATE PRODUCTS ── */
+  .affiliate-section {
+    background: linear-gradient(135deg, #f0ebe0, #e8e2d4);
+    border: 1.5px solid #cec8b8; border-radius: 16px; padding: 28px; margin-top: 32px;
+  }
+  .affiliate-title { font-size: 16px; font-weight: bold; margin-bottom: 6px; color: var(--dark); }
+  .affiliate-sub { font-family: sans-serif; font-size: 12px; color: #aaa; margin-bottom: 20px; }
+  .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .product-card {
+    background: var(--white); border-radius: 12px; padding: 16px; text-align: center;
+    box-shadow: 0 2px 12px rgba(28,27,24,.08); transition: transform .2s;
+  }
+  .product-card:hover { transform: translateY(-3px); }
+  .product-emoji { font-size: 36px; margin-bottom: 8px; }
+  .product-name { font-size: 13px; font-weight: bold; color: var(--dark); margin-bottom: 4px; }
+  .product-desc { font-family: sans-serif; font-size: 11px; color: var(--mid); margin-bottom: 12px; }
+  .product-btn {
+    display: inline-block; background: var(--dark); color: var(--white);
+    padding: 7px 16px; border-radius: 16px; font-family: sans-serif;
+    font-size: 12px; font-weight: 700; transition: opacity .2s;
+  }
+  .product-btn:hover { opacity: .85; }
+  .affiliate-disclaimer { font-family: sans-serif; font-size: 11px; color: #bbb; margin-top: 14px; font-style: italic; }
+
+  /* ── NEWSLETTER ── */
+  .newsletter {
+    background: linear-gradient(135deg, var(--charcoal), var(--dark));
+    border-radius: 20px; padding: 48px; text-align: center; color: white; margin-bottom: 56px;
+  }
+  .newsletter h2 { font-size: 28px; margin-bottom: 10px; }
+  .newsletter p { font-family: sans-serif; font-size: 15px; opacity: .9; margin-bottom: 28px; }
+  .newsletter-form { display: flex; gap: 10px; max-width: 440px; margin: auto; }
+  .newsletter-form input {
+    flex: 1; padding: 12px 18px; border-radius: 24px; border: none;
+    font-size: 14px; font-family: sans-serif; outline: none;
+  }
+  .newsletter-form button {
+    padding: 12px 24px; background: var(--rose); color: white; border: none;
+    border-radius: 24px; font-family: sans-serif; font-weight: 700; font-size: 14px;
+    cursor: pointer; white-space: nowrap; transition: opacity .2s;
+  }
+  .newsletter-form button:hover { opacity: .85; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #111110; color: rgba(240,235,224,.6);
+    font-family: sans-serif; font-size: 13px; text-align: center; padding: 32px 24px;
+  }
+  footer strong { color: var(--light); }
+  .footer-links { display: flex; gap: 20px; justify-content: center; margin-top: 10px; flex-wrap: wrap; }
+  .footer-links a { color: rgba(240,235,224,.4); transition: color .2s; }
+  .footer-links a:hover { color: var(--light); }
+
+  /* ── TAGS ── */
+  .tag {
+    display: inline-block; font-family: sans-serif; font-size: 11px; font-weight: 600;
+    padding: 4px 10px; border-radius: 10px; margin: 3px;
+  }
+  .tag.health { background: var(--sage-light); color: var(--sage); }
+  .tag.beauty { background: var(--rose-light); color: var(--rose); }
+  .tag.mental { background: #d8d8d0; color: #484840; }
+  .tag.fitness { background: #e4dece; color: #6a5a30; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-visual { display: none; }
+    .articles-grid { grid-template-columns: 1fr; }
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .featured-article { grid-template-columns: 1fr; }
+    .featured-img { min-height: 200px; font-size: 70px; }
+    .product-grid { grid-template-columns: 1fr; }
+    nav { display: none; }
+    .modal { padding: 28px 20px; }
+  }
+
+  /* Afiliados ocultos temporalmente — cambiar a 'block' cuando se activen */
+  .affiliate-section,
+  .inline-article-affiliate { display: none; }
+
+  /* hidden classes */
+  .lang-es .en-text { display: none; }
+  .lang-en .es-text { display: none; }
+</style>
+</head>
+<body class="lang-es" id="body">
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">✨</span>
+      <div>
+        <div class="logo-text">VitaGlow</div>
+        <div class="logo-sub es-text">Salud & Belleza con Ciencia</div>
+        <div class="logo-sub en-text">Health & Beauty with Science</div>
+      </div>
+    </div>
+    <nav>
+      <button class="nav-btn active" onclick="filterCategory('all')">
+        <span class="es-text">Todo</span><span class="en-text">All</span>
+      </button>
+      <button class="nav-btn sage" onclick="filterCategory('health')">
+        <span class="es-text">Salud</span><span class="en-text">Health</span>
+      </button>
+      <button class="nav-btn" onclick="filterCategory('beauty')">
+        <span class="es-text">Belleza</span><span class="en-text">Beauty</span>
+      </button>
+      <button class="nav-btn" onclick="filterCategory('mental')">
+        <span class="es-text">Bienestar</span><span class="en-text">Wellness</span>
+      </button>
+      <button class="nav-btn" onclick="filterCategory('fitness')">Fitness</button>
+    </nav>
+    <button class="lang-toggle" onclick="toggleLang()">🌐 EN / ES</button>
+  </div>
+</header>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<div class="hero">
+  <div>
+    <div class="hero-badge es-text">🔬 Respaldado por ciencia</div>
+    <div class="hero-badge en-text">🔬 Science-backed</div>
+    <h1 class="es-text">Tu salud y belleza <span>merecen verdad</span></h1>
+    <h1 class="en-text">Your health & beauty <span>deserve the truth</span></h1>
+    <p class="hero-desc es-text">Cada artículo está basado en investigaciones publicadas en revistas científicas revisadas por pares. Sin mitos, solo evidencia.</p>
+    <p class="hero-desc en-text">Every article is based on peer-reviewed scientific research. No myths, just evidence.</p>
+    <a href="#articles" class="hero-cta es-text">Explorar artículos →</a>
+    <a href="#articles" class="hero-cta en-text">Explore articles →</a>
+  </div>
+  <div class="hero-visual">🌿💊🧴🏃‍♀️</div>
+</div>
+
+<!-- ═══════════════ STATS ═══════════════ -->
+<div class="stats-bar">
+  <div class="stat-card">
+    <div class="stat-number">365+</div>
+    <div class="stat-label es-text">Artículos al año</div>
+    <div class="stat-label en-text">Articles per year</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">100%</div>
+    <div class="stat-label es-text">Revisados por ciencia</div>
+    <div class="stat-label en-text">Science-reviewed</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">4</div>
+    <div class="stat-label es-text">Categorías de bienestar</div>
+    <div class="stat-label en-text">Wellness categories</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">🇲🇽🇺🇸</div>
+    <div class="stat-label es-text">Bilingüe</div>
+    <div class="stat-label en-text">Bilingual</div>
+  </div>
+</div>
+
+<!-- ═══════════════ ARTÍCULOS EXPANDIDOS ═══════════════ -->
+<div class="section" id="articles">
+  <div class="section-header">
+    <div class="section-title">
+      <span>⭐</span>
+      <span class="es-text">Artículos del día</span>
+      <span class="en-text">Articles of the day</span>
+    </div>
+    <span class="card-date">17 junio 2026 · June 17, 2026</span>
+  </div>
+
+  <!-- ── ARTÍCULO 1: Arándanos y memoria ── -->
+  <div class="inline-article" data-inlinecat="health" id="inlineArticle1">
+    <div class="inline-article-top">
+      <div class="inline-article-visual health">
+        <div class="inline-badge es-text">⭐ Destacado hoy</div>
+        <div class="inline-badge en-text">⭐ Featured today</div>
+        <span>🫐</span>
+      </div>
+      <div class="inline-article-intro">
+        <div class="inline-cat es-text">🌿 SALUD GENERAL · 17 JUN 2026 · ⏱ 7 min</div>
+        <div class="inline-cat en-text">🌿 GENERAL HEALTH · JUN 17, 2026 · ⏱ 7 min</div>
+        <h2 class="es-text">Los arándanos y la memoria: lo que dice la ciencia</h2>
+        <h2 class="en-text">Blueberries and memory: what science says</h2>
+        <div class="inline-source es-text">📚 Krikorian et al. — Nutritional Neuroscience, 2023 · DOI: 10.1080/1028415X</div>
+        <div class="inline-source en-text">📚 Krikorian et al. — Nutritional Neuroscience, 2023 · DOI: 10.1080/1028415X</div>
+        <p class="inline-lead es-text">Durante siglos, los arándanos han sido considerados un "superalimento". Pero, ¿qué tan sólida es la evidencia? Resultó ser más robusta de lo esperado: un ensayo clínico controlado con 33 adultos mostró mejoras medibles en memoria y cognición tras solo 12 semanas.</p>
+        <p class="inline-lead en-text">For centuries, blueberries have been considered a "superfood." But how solid is the evidence? It turns out stronger than expected: a controlled clinical trial with 33 adults showed measurable improvements in memory and cognition after just 12 weeks.</p>
+      </div>
+    </div>
+
+    <div class="inline-article-body">
+      <div class="inline-col">
+        <div class="inline-key-facts-row">
+          <div class="inline-key-fact">
+            <div class="kf-number">+9.4%</div>
+            <div class="kf-label es-text">Memoria espacial vs. placebo</div>
+            <div class="kf-label en-text">Spatial memory vs. placebo</div>
+          </div>
+          <div class="inline-key-fact">
+            <div class="kf-number">12</div>
+            <div class="kf-label es-text">Semanas de intervención</div>
+            <div class="kf-label en-text">Weeks of intervention</div>
+          </div>
+          <div class="inline-key-fact">
+            <div class="kf-number">20×</div>
+            <div class="kf-label es-text">Concentración en cerebro vs. plasma</div>
+            <div class="kf-label en-text">Brain vs. plasma concentration</div>
+          </div>
+        </div>
+        <h3 class="es-text">¿Qué encontraron los investigadores?</h3>
+        <h3 class="en-text">What did researchers find?</h3>
+        <p class="es-text">Krikorian et al. asignaron aleatoriamente a 33 adultos de 50–65 años a consumir polvo de arándano liofilizado o placebo durante 12 semanas. El grupo de arándanos mostró mejoras significativas en memoria espacial de trabajo, velocidad de procesamiento cognitivo y reducción de síntomas depresivos leves.</p>
+        <p class="en-text">Krikorian et al. randomized 33 adults aged 50–65 to consume freeze-dried blueberry powder or placebo for 12 weeks. The blueberry group showed significant improvements in spatial working memory, cognitive processing speed, and reduction of mild depressive symptoms.</p>
+        <div class="inline-quote es-text">"Los polifenoles de los arándanos mejoran la señalización neuronal y reducen el estrés oxidativo en regiones cerebrales críticas para la memoria." — Devore et al., Annals of Neurology</div>
+        <div class="inline-quote en-text">"Blueberry polyphenols improve neuronal signaling and reduce oxidative stress in brain regions critical for memory." — Devore et al., Annals of Neurology</div>
+      </div>
+      <div class="inline-col">
+        <h3 class="es-text">El mecanismo: antocianinas y el cerebro</h3>
+        <h3 class="en-text">The mechanism: anthocyanins and the brain</h3>
+        <p class="es-text">Los arándanos son excepcionalmente ricos en <strong>antocianinas</strong>, pigmentos flavonoides que atraviesan la barrera hematoencefálica. Una vez en el cerebro, activan las vías BDNF (factor neurotrófico derivado del cerebro) que promueven la neuroplasticidad y la formación de nuevas conexiones sinápticas.</p>
+        <p class="en-text">Blueberries are exceptionally rich in <strong>anthocyanins</strong>, flavonoid pigments that cross the blood-brain barrier. Once in the brain, they activate BDNF (brain-derived neurotrophic factor) pathways that promote neuroplasticity and the formation of new synaptic connections.</p>
+        <h3 class="es-text">¿Cuánto necesitas consumir?</h3>
+        <h3 class="en-text">How much do you need?</h3>
+        <ul>
+          <li class="es-text"><strong>½ – 1 taza fresca</strong> al día (75–150 g). Los congelados conservan las antocianinas casi igual.</li>
+          <li class="en-text"><strong>½ – 1 cup fresh</strong> per day (75–150 g). Frozen retain anthocyanins almost as well.</li>
+          <li class="es-text"><strong>Polvo liofilizado:</strong> 1 cucharada = 1 taza. Mismo efecto, más fácil de incluir en batidos.</li>
+          <li class="en-text"><strong>Freeze-dried powder:</strong> 1 tablespoon = 1 cup. Same effect, easier to add to smoothies.</li>
+          <li class="es-text">La constancia importa más que la dosis: efectos medibles desde la semana 4.</li>
+          <li class="en-text">Consistency matters more than dose: measurable effects from week 4.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="inline-article-affiliate">
+      <div class="affiliate-title es-text">🛒 Productos relacionados con este artículo</div>
+      <div class="affiliate-title en-text">🛒 Products related to this article</div>
+      <div class="affiliate-sub es-text">Seleccionados por calidad y respaldo científico</div>
+      <div class="affiliate-sub en-text">Selected for quality and scientific backing</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">🫐</div>
+          <div class="product-name es-text">Polvo de arándano liofilizado</div>
+          <div class="product-name en-text">Freeze-dried blueberry powder</div>
+          <div class="product-desc es-text">Orgánico, sin azúcar. El mismo formato usado en estudios clínicos.</div>
+          <div class="product-desc en-text">Organic, no added sugar. Same format used in clinical studies.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Amazon →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🧠</div>
+          <div class="product-name es-text">Complejo de antocianinas</div>
+          <div class="product-name en-text">Anthocyanin complex</div>
+          <div class="product-desc es-text">Extracto concentrado de berries mixtos con alta densidad de polifenoles.</div>
+          <div class="product-desc en-text">Concentrated mixed berry extract with high polyphenol density.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Amazon →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">📖</div>
+          <div class="product-name es-text">Libro: El cerebro en forma</div>
+          <div class="product-name en-text">The Brain That Changes Itself</div>
+          <div class="product-desc es-text">Guía de neuroplasticidad práctica basada en investigación científica.</div>
+          <div class="product-desc en-text">Practical neuroplasticity guide based on scientific research.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Amazon →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti. Solo recomendamos productos validados con evidencia científica.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you. We only recommend science-validated products.</div>
+    </div>
+  </div>
+
+  <!-- ── ARTÍCULO 2: Vitamina C tópica ── -->
+  <div class="inline-article" data-inlinecat="beauty" id="inlineArticle2">
+    <div class="inline-article-top">
+      <div class="inline-article-visual beauty">
+        <div class="inline-badge es-text">💄 Belleza</div>
+        <div class="inline-badge en-text">💄 Beauty</div>
+        <span>🧴</span>
+      </div>
+      <div class="inline-article-intro">
+        <div class="inline-cat es-text">💄 BELLEZA NATURAL · 16 JUN 2026 · ⏱ 5 min</div>
+        <div class="inline-cat en-text">💄 NATURAL BEAUTY · JUN 16, 2026 · ⏱ 5 min</div>
+        <h2 class="es-text">Vitamina C tópica: el ingrediente anti-edad más estudiado de la historia</h2>
+        <h2 class="en-text">Topical Vitamin C: the most studied anti-aging ingredient in history</h2>
+        <div class="inline-source es-text">📚 Al-Niaimi & Chiang — Journal of Clinical and Aesthetic Dermatology, 2017</div>
+        <div class="inline-source en-text">📚 Al-Niaimi & Chiang — Journal of Clinical and Aesthetic Dermatology, 2017</div>
+        <p class="inline-lead es-text">Más de 50 estudios clínicos controlados durante las últimas tres décadas confirman que el ácido L-ascórbico al 10–20% es el único ingrediente cosmético activo con evidencia robusta tanto para reducir manchas como para estimular la síntesis de colágeno nuevo.</p>
+        <p class="inline-lead en-text">More than 50 controlled clinical studies over the past three decades confirm that L-ascorbic acid at 10–20% is the only active cosmetic ingredient with robust evidence for both reducing dark spots and stimulating new collagen synthesis.</p>
+      </div>
+    </div>
+
+    <div class="inline-article-body">
+      <div class="inline-col">
+        <div class="inline-key-facts-row">
+          <div class="inline-key-fact">
+            <div class="kf-number">50+</div>
+            <div class="kf-label es-text">Estudios clínicos publicados</div>
+            <div class="kf-label en-text">Published clinical studies</div>
+          </div>
+          <div class="inline-key-fact">
+            <div class="kf-number">8–12</div>
+            <div class="kf-label es-text">Semanas para ver resultados</div>
+            <div class="kf-label en-text">Weeks to see results</div>
+          </div>
+          <div class="inline-key-fact">
+            <div class="kf-number">8×</div>
+            <div class="kf-label es-text">Mayor eficacia del SPF combinado</div>
+            <div class="kf-label en-text">Enhanced SPF efficacy combined</div>
+          </div>
+        </div>
+        <h3 class="es-text">Lo que la ciencia confirma</h3>
+        <h3 class="en-text">What science confirms</h3>
+        <ul>
+          <li class="es-text"><strong>Colágeno:</strong> cofactor esencial para las enzimas que construyen colágeno. Sin vitamina C, la síntesis colapsa.</li>
+          <li class="en-text"><strong>Collagen:</strong> essential cofactor for collagen-building enzymes. Without vitamin C, synthesis collapses.</li>
+          <li class="es-text"><strong>Manchas:</strong> inhibe la tirosinasa, la enzima que produce melanina. Resultados visibles en 8–12 semanas al 10–20%.</li>
+          <li class="en-text"><strong>Dark spots:</strong> inhibits tyrosinase, the enzyme producing melanin. Visible results in 8–12 weeks at 10–20%.</li>
+          <li class="es-text"><strong>Antioxidante:</strong> neutraliza radicales libres del daño UV antes de que activen la degradación del colágeno.</li>
+          <li class="en-text"><strong>Antioxidant:</strong> neutralizes free radicals from UV damage before they trigger collagen degradation.</li>
+        </ul>
+        <div class="inline-quote es-text">"La vitamina C tópica tiene más evidencia acumulada que cualquier otro ingrediente cosmético activo existente." — Journal of Investigative Dermatology, 2022</div>
+        <div class="inline-quote en-text">"Topical vitamin C has more accumulated evidence than any other existing active cosmetic ingredient." — Journal of Investigative Dermatology, 2022</div>
+      </div>
+      <div class="inline-col">
+        <h3 class="es-text">Cómo elegir un buen sérum</h3>
+        <h3 class="en-text">How to choose a good serum</h3>
+        <p class="es-text">No todos los productos de "vitamina C" son iguales. La mayoría usa derivados estabilizados (AA-2G, MAP, ascorbil glucósido) que tienen mucha menos evidencia clínica. Para resultados comprobados, busca:</p>
+        <p class="en-text">Not all "vitamin C" products are equal. Most use stabilized derivatives (AA-2G, MAP, ascorbyl glucoside) with far less clinical evidence. For proven results, look for:</p>
+        <ul>
+          <li class="es-text"><strong>Ingrediente:</strong> L-ácido ascórbico (no derivados)</li>
+          <li class="en-text"><strong>Ingredient:</strong> L-ascorbic acid (not derivatives)</li>
+          <li class="es-text"><strong>Concentración:</strong> 10–20%</li>
+          <li class="en-text"><strong>Concentration:</strong> 10–20%</li>
+          <li class="es-text"><strong>pH:</strong> 2.5–3.5 para máxima absorción</li>
+          <li class="en-text"><strong>pH:</strong> 2.5–3.5 for maximum absorption</li>
+          <li class="es-text"><strong>Envase:</strong> vidrio oscuro o aluminio opaco (se oxida rápido con la luz)</li>
+          <li class="en-text"><strong>Packaging:</strong> dark glass or opaque aluminum (oxidizes quickly with light)</li>
+        </ul>
+        <h3 class="es-text">Cómo aplicarlo</h3>
+        <h3 class="en-text">How to apply it</h3>
+        <p class="es-text">Aplica en la mañana sobre piel limpia y seca, antes de la hidratante y del protector solar. La combinación vitamina C + SPF es la dupla antiedad con mayor evidencia disponible: el SPF bloquea los rayos UV y la vitamina C repara el daño oxidativo que pasa igual.</p>
+        <p class="en-text">Apply in the morning on clean, dry skin, before moisturizer and sunscreen. The vitamin C + SPF combination is the anti-aging duo with the most available evidence: SPF blocks UV rays and vitamin C repairs the oxidative damage that still gets through.</p>
+      </div>
+    </div>
+
+    <div class="inline-article-affiliate">
+      <div class="affiliate-title es-text">🛒 Productos recomendados con respaldo científico</div>
+      <div class="affiliate-title en-text">🛒 Science-backed recommended products</div>
+      <div class="affiliate-sub es-text">El perfil de ingredientes que avala la investigación</div>
+      <div class="affiliate-sub en-text">The ingredient profile that research endorses</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">✨</div>
+          <div class="product-name">Sérum Vitamina C 20%</div>
+          <div class="product-desc es-text">L-ácido ascórbico puro, pH 3.0, envase oscuro. Gama profesional.</div>
+          <div class="product-desc en-text">Pure L-ascorbic acid, pH 3.0, dark packaging. Professional grade.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Amazon →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🌞</div>
+          <div class="product-name es-text">Kit Vitamina C + SPF 50</div>
+          <div class="product-name en-text">Vitamin C + SPF 50 Kit</div>
+          <div class="product-desc es-text">La combinación más eficaz según la literatura. Protege y repara.</div>
+          <div class="product-desc en-text">The most effective combination per literature. Protects and repairs.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Amazon →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🫙</div>
+          <div class="product-name es-text">Vitamina C oral 500mg</div>
+          <div class="product-name en-text">Oral Vitamin C 500mg</div>
+          <div class="product-desc es-text">Para potenciar los efectos tópicos desde adentro. Dosis óptima documentada.</div>
+          <div class="product-desc en-text">To enhance topical effects from within. Documented optimal dose.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Amazon →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════ ARTICLE CARDS ═══════════════ -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-title">
+      <span>📰</span>
+      <span class="es-text">Más artículos — haz clic para leer</span>
+      <span class="en-text">More articles — click to read</span>
+    </div>
+    <span class="see-all es-text">Ver todos →</span>
+    <span class="see-all en-text">See all →</span>
+  </div>
+
+  <div class="articles-grid" id="articlesGrid">
+
+    <!-- Card 2: Mental -->
+    <div class="card" data-cat="mental" onclick="openModal('mental1')">
+      <div class="card-img mental">
+        <div class="card-cat mental es-text">🧠 Bienestar</div>
+        <div class="card-cat mental en-text">🧠 Wellness</div>
+        <span>🧘</span>
+      </div>
+      <div class="card-body">
+        <div class="card-date">15 jun 2026</div>
+        <div class="card-source">JAMA Internal Medicine</div>
+        <h3 class="card-title es-text">10 minutos de meditación reducen el cortisol hasta 22%</h3>
+        <h3 class="card-title en-text">10 minutes of meditation reduces cortisol by up to 22%</h3>
+        <p class="card-excerpt es-text">Un meta-análisis de 47 estudios reveló que la meditación de atención plena tiene efectos medibles sobre el estrés incluso en sesiones muy cortas.</p>
+        <p class="card-excerpt en-text">A meta-analysis of 47 studies revealed that mindfulness meditation has measurable effects on stress even in very short sessions.</p>
+        <div class="card-footer">
+          <span class="card-time es-text">⏱ 4 min lectura</span>
+          <span class="card-time en-text">⏱ 4 min read</span>
+          <span class="card-read es-text">Leer →</span>
+          <span class="card-read en-text">Read →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Fitness -->
+    <div class="card" data-cat="fitness" onclick="openModal('fitness1')">
+      <div class="card-img fitness">
+        <div class="card-cat fitness es-text">💪 Fitness</div>
+        <div class="card-cat fitness en-text">💪 Fitness</div>
+        <span>🏋️</span>
+      </div>
+      <div class="card-body">
+        <div class="card-date">14 jun 2026</div>
+        <div class="card-source">British Journal of Sports Medicine</div>
+        <h3 class="card-title es-text">El mito de las 10,000 pasos: cuántos pasos realmente necesitas</h3>
+        <h3 class="card-title en-text">The 10,000 steps myth: how many steps do you actually need</h3>
+        <p class="card-excerpt es-text">Investigadores de Harvard demostraron que los beneficios cardiovasculares se estabilizan alrededor de los 7,500 pasos diarios. Más no siempre es mejor.</p>
+        <p class="card-excerpt en-text">Harvard researchers showed that cardiovascular benefits plateau around 7,500 daily steps. More isn't always better.</p>
+        <div class="card-footer">
+          <span class="card-time es-text">⏱ 4 min lectura</span>
+          <span class="card-time en-text">⏱ 4 min read</span>
+          <span class="card-read es-text">Leer →</span>
+          <span class="card-read en-text">Read →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4: Health -->
+    <div class="card" data-cat="health" onclick="openModal('health1')">
+      <div class="card-img health">
+        <div class="card-cat health es-text">🌿 Salud</div>
+        <div class="card-cat health en-text">🌿 Health</div>
+        <span>😴</span>
+      </div>
+      <div class="card-body">
+        <div class="card-date">13 jun 2026</div>
+        <div class="card-source">Sleep Medicine Reviews</div>
+        <h3 class="card-title es-text">Por qué dormir menos de 7 horas acelera el envejecimiento celular</h3>
+        <h3 class="card-title en-text">Why sleeping less than 7 hours accelerates cellular aging</h3>
+        <p class="card-excerpt es-text">El sueño insuficiente acorta los telómeros, eleva la inflamación sistémica y duplica el riesgo de síndrome metabólico, según análisis de 160,000 participantes.</p>
+        <p class="card-excerpt en-text">Insufficient sleep shortens telomeres, raises systemic inflammation, and doubles metabolic syndrome risk, per analysis of 160,000 participants.</p>
+        <div class="card-footer">
+          <span class="card-time es-text">⏱ 6 min lectura</span>
+          <span class="card-time en-text">⏱ 6 min read</span>
+          <span class="card-read es-text">Leer →</span>
+          <span class="card-read en-text">Read →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5: Beauty -->
+    <div class="card" data-cat="beauty" onclick="openModal('beauty2')">
+      <div class="card-img beauty">
+        <div class="card-cat beauty es-text">💄 Belleza</div>
+        <div class="card-cat beauty en-text">💄 Beauty</div>
+        <span>☀️</span>
+      </div>
+      <div class="card-body">
+        <div class="card-date">12 jun 2026</div>
+        <div class="card-source">Journal of the American Academy of Dermatology</div>
+        <h3 class="card-title es-text">Protector solar: el único producto antiedad verdaderamente respaldado</h3>
+        <h3 class="card-title en-text">Sunscreen: the only truly science-backed anti-aging product</h3>
+        <p class="card-excerpt es-text">Décadas de investigación confirman que el SPF 30+ diario previene el 90% del fotoenvejecimiento. Ningún otro producto se compara.</p>
+        <p class="card-excerpt en-text">Decades of research confirm that daily SPF 30+ prevents 90% of photoaging. No other product compares.</p>
+        <div class="card-footer">
+          <span class="card-time es-text">⏱ 5 min lectura</span>
+          <span class="card-time en-text">⏱ 5 min read</span>
+          <span class="card-read es-text">Leer →</span>
+          <span class="card-read en-text">Read →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6: Mental -->
+    <div class="card" data-cat="mental" onclick="openModal('mental2')">
+      <div class="card-img mental">
+        <div class="card-cat mental es-text">🧠 Bienestar</div>
+        <div class="card-cat mental en-text">🧠 Wellness</div>
+        <span>🌊</span>
+      </div>
+      <div class="card-body">
+        <div class="card-date">11 jun 2026</div>
+        <div class="card-source">Frontiers in Psychology</div>
+        <h3 class="card-title es-text">El "baño de bosque" japonés que reduce la presión arterial en 2 horas</h3>
+        <h3 class="card-title en-text">The Japanese "forest bath" that lowers blood pressure in 2 hours</h3>
+        <p class="card-excerpt es-text">El Shinrin-yoku (baño de bosque) reduce significativamente el cortisol, la presión arterial y la frecuencia cardíaca. La evidencia acumulada es sólida.</p>
+        <p class="card-excerpt en-text">Shinrin-yoku (forest bathing) significantly reduces cortisol, blood pressure, and heart rate. The accumulated evidence is solid.</p>
+        <div class="card-footer">
+          <span class="card-time es-text">⏱ 4 min lectura</span>
+          <span class="card-time en-text">⏱ 4 min read</span>
+          <span class="card-read es-text">Leer →</span>
+          <span class="card-read en-text">Read →</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════ NEWSLETTER ═══════════════ -->
+<div class="section">
+  <div class="newsletter">
+    <h2 class="es-text">✉️ Recibe el artículo del día</h2>
+    <h2 class="en-text">✉️ Get the daily article</h2>
+    <p class="es-text">Cada mañana un nuevo consejo de salud o belleza respaldado por ciencia, directo a tu correo.</p>
+    <p class="en-text">Every morning a new science-backed health or beauty tip, straight to your inbox.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="tu@email.com" />
+      <button class="es-text">Suscribirme</button>
+      <button class="en-text">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer>
+  <div><strong>VitaGlow</strong> · <span class="es-text">Salud & Belleza con Ciencia</span><span class="en-text">Health & Beauty with Science</span></div>
+  <div class="footer-links">
+    <a href="#" class="es-text">Sobre nosotros</a><a href="#" class="en-text">About us</a>
+    <a href="#" class="es-text">Política de privacidad</a><a href="#" class="en-text">Privacy policy</a>
+    <a href="#" class="es-text">Contacto</a><a href="#" class="en-text">Contact</a>
+    <a href="#" class="es-text">Aviso de afiliados</a><a href="#" class="en-text">Affiliate disclosure</a>
+  </div>
+  <div style="margin-top:12px;font-size:11px;opacity:.5">
+    <span class="es-text">Los artículos son informativos y no sustituyen consejo médico profesional.</span>
+    <span class="en-text">Articles are informational and do not replace professional medical advice.</span>
+  </div>
+</footer>
+
+<!-- ═══════════════ MODALS ═══════════════ -->
+<!-- Modal: Featured (Blueberries) -->
+<div class="modal-overlay" id="modal-featured" onclick="closeModalOnBg(event, 'featured')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('featured')">×</button>
+    <div class="modal-cat es-text">🌿 SALUD GENERAL · 17 JUN 2026</div>
+    <div class="modal-cat en-text">🌿 GENERAL HEALTH · JUN 17, 2026</div>
+    <h2 class="es-text">Los arándanos y la memoria: lo que dice la ciencia</h2>
+    <h2 class="en-text">Blueberries and memory: what science says</h2>
+    <div class="modal-meta es-text">⏱ 7 min lectura · Por el equipo editorial VitaGlow</div>
+    <div class="modal-meta en-text">⏱ 7 min read · By the VitaGlow editorial team</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Krikorian, R. et al. (2023). "Blueberry supplementation in midlife for dementia risk reduction." <em>Nutritional Neuroscience</em>, 26(5), 455–464. DOI: 10.1080/1028415X.2022.2045541</span>
+      <span class="en-text"> Krikorian, R. et al. (2023). "Blueberry supplementation in midlife for dementia risk reduction." <em>Nutritional Neuroscience</em>, 26(5), 455–464. DOI: 10.1080/1028415X.2022.2045541</span>
+    </div>
+    <div class="modal-body">
+      <p class="es-text">Durante siglos, los arándanos han sido considerados un "superalimento". Pero, ¿qué tan sólida es la evidencia científica? Resultó ser más robusta de lo esperado.</p>
+      <p class="en-text">For centuries, blueberries have been considered a "superfood." But how solid is the scientific evidence? It turns out to be stronger than expected.</p>
+
+      <h3 class="es-text">¿Qué encontraron los investigadores?</h3>
+      <h3 class="en-text">What did researchers find?</h3>
+      <p class="es-text">En el estudio de Krikorian et al., 33 adultos de entre 50 y 65 años con factores de riesgo de deterioro cognitivo fueron asignados aleatoriamente a consumir polvo de arándano liofilizado o placebo durante 12 semanas. El grupo de arándanos mostró mejoras significativas en:</p>
+      <p class="en-text">In Krikorian et al.'s study, 33 adults aged 50–65 with cognitive decline risk factors were randomized to consume freeze-dried blueberry powder or placebo for 12 weeks. The blueberry group showed significant improvements in:</p>
+      <ul>
+        <li class="es-text">Memoria espacial de trabajo (+9.4% vs. placebo)</li>
+        <li class="en-text">Spatial working memory (+9.4% vs. placebo)</li>
+        <li class="es-text">Velocidad de procesamiento cognitivo</li>
+        <li class="en-text">Cognitive processing speed</li>
+        <li class="es-text">Reducción de síntomas depresivos leves</li>
+        <li class="en-text">Reduction in mild depressive symptoms</li>
+      </ul>
+
+      <h3 class="es-text">El mecanismo: antocianinas y neuroprotección</h3>
+      <h3 class="en-text">The mechanism: anthocyanins and neuroprotection</h3>
+      <p class="es-text">Los arándanos son excepcionalmente ricos en <strong>antocianinas</strong>, pigmentos flavonoides que atraviesan la barrera hematoencefálica. Una vez en el cerebro, activan las vías BDNF (factor neurotrófico derivado del cerebro) que promueven la neuroplasticidad y la formación de nuevas sinapsis.</p>
+      <p class="en-text">Blueberries are exceptionally rich in <strong>anthocyanins</strong>, flavonoid pigments that cross the blood-brain barrier. Once in the brain, they activate BDNF (brain-derived neurotrophic factor) pathways that promote neuroplasticity and the formation of new synapses.</p>
+
+      <blockquote class="es-text">"Los polifenoles de los arándanos pueden mejorar la señalización neuronal y reducir el estrés oxidativo en regiones cerebrales críticas para la memoria." — Devore et al., Annals of Neurology, 2012</blockquote>
+      <blockquote class="en-text">"Blueberry polyphenols may improve neuronal signaling and reduce oxidative stress in brain regions critical for memory." — Devore et al., Annals of Neurology, 2012</blockquote>
+
+      <h3 class="es-text">¿Cuánto necesitas consumir?</h3>
+      <h3 class="en-text">How much do you need to consume?</h3>
+      <p class="es-text">Los estudios utilizan equivalentes de <strong>½ a 1 taza de arándanos frescos por día</strong> (aprox. 75–150 g). Los arándanos congelados conservan las antocianinas casi igual que los frescos. El polvo liofilizado (1 cucharada = 1 taza) es una opción práctica con la misma eficacia demostrada.</p>
+      <p class="en-text">Studies use equivalents of <strong>½ to 1 cup of fresh blueberries per day</strong> (approx. 75–150 g). Frozen blueberries retain anthocyanins almost as well as fresh. Freeze-dried powder (1 tablespoon = 1 cup) is a practical option with the same demonstrated efficacy.</p>
+    </div>
+
+    <!-- AFFILIATE PRODUCTS -->
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Productos relacionados</div>
+      <div class="affiliate-title en-text">🛒 Related products</div>
+      <div class="affiliate-sub es-text">Seleccionados por calidad y respaldo científico</div>
+      <div class="affiliate-sub en-text">Selected for quality and scientific backing</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">🫐</div>
+          <div class="product-name es-text">Polvo de arándano liofilizado</div>
+          <div class="product-name en-text">Freeze-dried blueberry powder</div>
+          <div class="product-desc es-text">Orgánico, sin azúcar añadida. El mismo formato usado en estudios clínicos.</div>
+          <div class="product-desc en-text">Organic, no added sugar. Same format used in clinical studies.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">
+            <span class="es-text">Ver en Amazon →</span>
+            <span class="en-text">View on Amazon →</span>
+          </a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🧠</div>
+          <div class="product-name es-text">Complejo de antocianinas</div>
+          <div class="product-name en-text">Anthocyanin complex</div>
+          <div class="product-desc es-text">Extracto de berries mixtos con alta concentración de polifenoles.</div>
+          <div class="product-desc en-text">Mixed berry extract with high polyphenol concentration.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">
+            <span class="es-text">Ver en Amazon →</span>
+            <span class="en-text">View on Amazon →</span>
+          </a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">📖</div>
+          <div class="product-name es-text">Libro: El cerebro en forma</div>
+          <div class="product-name en-text">Book: The Brain That Changes Itself</div>
+          <div class="product-desc es-text">Guía de neuroplasticidad práctica basada en investigación.</div>
+          <div class="product-desc en-text">Practical neuroplasticity guide based on research.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">
+            <span class="es-text">Ver en Amazon →</span>
+            <span class="en-text">View on Amazon →</span>
+          </a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Este artículo contiene enlaces de afiliados. Si compras a través de ellos, recibimos una pequeña comisión sin costo extra para ti. Solo recomendamos productos que validamos con la evidencia científica.</div>
+      <div class="affiliate-disclaimer en-text">* This article contains affiliate links. If you buy through them, we receive a small commission at no extra cost to you. We only recommend products we validate with scientific evidence.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Beauty (Vitamin C) -->
+<div class="modal-overlay" id="modal-beauty1" onclick="closeModalOnBg(event, 'beauty1')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('beauty1')">×</button>
+    <div class="modal-cat es-text">💄 BELLEZA NATURAL · 16 JUN 2026</div>
+    <div class="modal-cat en-text">💄 NATURAL BEAUTY · JUN 16, 2026</div>
+    <h2 class="es-text">Vitamina C tópica: el ingrediente anti-edad más estudiado</h2>
+    <h2 class="en-text">Topical Vitamin C: the most studied anti-aging ingredient</h2>
+    <div class="modal-meta es-text">⏱ 5 min lectura</div>
+    <div class="modal-meta en-text">⏱ 5 min read</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Al-Niaimi, F. & Chiang, N. (2017). "Topical Vitamin C and the Skin: Mechanisms of Action and Clinical Applications." <em>Journal of Clinical and Aesthetic Dermatology</em>, 10(7), 14–17.</span>
+      <span class="en-text"> Al-Niaimi, F. & Chiang, N. (2017). "Topical Vitamin C and the Skin: Mechanisms of Action and Clinical Applications." <em>Journal of Clinical and Aesthetic Dermatology</em>, 10(7), 14–17.</span>
+    </div>
+    <div class="modal-body">
+      <h3 class="es-text">¿Por qué la vitamina C es especial para la piel?</h3>
+      <h3 class="en-text">Why is vitamin C special for skin?</h3>
+      <p class="es-text">El ácido L-ascórbico es el único antioxidante para el que la piel humana tiene un mecanismo activo de acumulación. Nuestra piel lo concentra hasta 20 veces más que el plasma sanguíneo cuando aplicamos fuentes tópicas adecuadas.</p>
+      <p class="en-text">L-ascorbic acid is the only antioxidant for which human skin has an active accumulation mechanism. Our skin concentrates it up to 20 times more than blood plasma when we apply adequate topical sources.</p>
+      <h3 class="es-text">Lo que la ciencia confirma</h3>
+      <h3 class="en-text">What science confirms</h3>
+      <ul>
+        <li class="es-text"><strong>Síntesis de colágeno:</strong> cofactor esencial para las enzimas prolil y lisil hidroxilasa, sin las cuales el colágeno no se puede formar correctamente.</li>
+        <li class="en-text"><strong>Collagen synthesis:</strong> essential cofactor for prolyl and lysyl hydroxylase enzymes, without which collagen cannot form properly.</li>
+        <li class="es-text"><strong>Inhibición de melanina:</strong> inhibe la tirosinasa, reduciendo hiperpigmentación en 8–12 semanas a concentraciones del 10–20%.</li>
+        <li class="en-text"><strong>Melanin inhibition:</strong> inhibits tyrosinase, reducing hyperpigmentation in 8–12 weeks at 10–20% concentrations.</li>
+        <li class="es-text"><strong>Protección UV:</strong> aunque no es SPF, potencia la eficacia del protector solar en un 8x cuando se combina.</li>
+        <li class="en-text"><strong>UV protection:</strong> while not an SPF, it boosts sunscreen efficacy 8x when combined.</li>
+      </ul>
+      <blockquote class="es-text">"La vitamina C tópica tiene más evidencia acumulada que cualquier otro ingrediente cosmético activo." — Journal of Investigative Dermatology, 2022</blockquote>
+      <blockquote class="en-text">"Topical vitamin C has more accumulated evidence than any other active cosmetic ingredient." — Journal of Investigative Dermatology, 2022</blockquote>
+      <h3 class="es-text">Cómo elegir un buen suero de vitamina C</h3>
+      <h3 class="en-text">How to choose a good vitamin C serum</h3>
+      <ul>
+        <li class="es-text">Concentración: 10–20% de L-ácido ascórbico (no derivados como AA-2G o MAP — menos evidencia)</li>
+        <li class="en-text">Concentration: 10–20% L-ascorbic acid (not derivatives like AA-2G or MAP — less evidence)</li>
+        <li class="es-text">pH: 2.5–3.5 para máxima absorción</li>
+        <li class="en-text">pH: 2.5–3.5 for maximum absorption</li>
+        <li class="es-text">Envase: vidrio oscuro o aluminio opaco para evitar oxidación</li>
+        <li class="en-text">Packaging: dark glass or opaque aluminum to prevent oxidation</li>
+      </ul>
+    </div>
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Productos recomendados</div>
+      <div class="affiliate-title en-text">🛒 Recommended products</div>
+      <div class="affiliate-sub es-text">Con el perfil de ingredientes que respalda la ciencia</div>
+      <div class="affiliate-sub en-text">With the ingredient profile science supports</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">✨</div>
+          <div class="product-name">Sérum Vitamina C 20%</div>
+          <div class="product-desc es-text">L-ácido ascórbico puro, pH 3.0, envase oscuro. Gama profesional.</div>
+          <div class="product-desc en-text">Pure L-ascorbic acid, pH 3.0, dark packaging. Professional grade.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🧪</div>
+          <div class="product-name es-text">Kit vitamina C + SPF</div>
+          <div class="product-name en-text">Vitamin C + SPF kit</div>
+          <div class="product-desc es-text">La combinación más eficaz según la literatura científica.</div>
+          <div class="product-desc en-text">The most effective combination per scientific literature.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🫙</div>
+          <div class="product-name es-text">Vitamina C oral (complemento)</div>
+          <div class="product-name en-text">Oral Vitamin C (complement)</div>
+          <div class="product-desc es-text">Para potenciar los efectos tópicos desde adentro. 500mg/día.</div>
+          <div class="product-desc en-text">To enhance topical effects from within. 500mg/day.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Mental (Meditación) -->
+<div class="modal-overlay" id="modal-mental1" onclick="closeModalOnBg(event, 'mental1')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('mental1')">×</button>
+    <div class="modal-cat es-text">🧠 BIENESTAR MENTAL · 15 JUN 2026</div>
+    <div class="modal-cat en-text">🧠 MENTAL WELLNESS · JUN 15, 2026</div>
+    <h2 class="es-text">10 minutos de meditación reducen el cortisol hasta 22%</h2>
+    <h2 class="en-text">10 minutes of meditation reduces cortisol by up to 22%</h2>
+    <div class="modal-meta es-text">⏱ 4 min lectura</div>
+    <div class="modal-meta en-text">⏱ 4 min read</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Goyal, M. et al. (2014). "Meditation Programs for Psychological Stress and Well-being." <em>JAMA Internal Medicine</em>, 174(3), 357–368. DOI: 10.1001/jamainternmed.2013.13018</span>
+      <span class="en-text"> Goyal, M. et al. (2014). "Meditation Programs for Psychological Stress and Well-being." <em>JAMA Internal Medicine</em>, 174(3), 357–368. DOI: 10.1001/jamainternmed.2013.13018</span>
+    </div>
+    <div class="modal-body">
+      <p class="es-text">El meta-análisis de Goyal et al., considerado el más riguroso sobre meditación, analizó 47 ensayos clínicos controlados con 3,515 participantes. La conclusión es clara: la meditación funciona, incluso en dosis pequeñas.</p>
+      <p class="en-text">Goyal et al.'s meta-analysis, considered the most rigorous on meditation, analyzed 47 controlled clinical trials with 3,515 participants. The conclusion is clear: meditation works, even in small doses.</p>
+      <h3 class="es-text">Efectos medidos en 10 minutos diarios</h3>
+      <h3 class="en-text">Effects measured in 10 daily minutes</h3>
+      <ul>
+        <li class="es-text">Reducción de cortisol salival: 18–22% en 8 semanas</li>
+        <li class="en-text">Reduction in salivary cortisol: 18–22% in 8 weeks</li>
+        <li class="es-text">Mejora en ansiedad: tamaño del efecto moderado (d = 0.38)</li>
+        <li class="en-text">Anxiety improvement: moderate effect size (d = 0.38)</li>
+        <li class="es-text">Mejora en depresión: comparable a antidepresivos de segunda línea</li>
+        <li class="en-text">Depression improvement: comparable to second-line antidepressants</li>
+        <li class="es-text">Calidad del sueño: mejora significativa en el índice de Pittsburgh</li>
+        <li class="en-text">Sleep quality: significant improvement on the Pittsburgh index</li>
+      </ul>
+      <blockquote class="es-text">"La meditación mindfulness debe considerarse como una intervención de primera línea para el manejo del estrés crónico." — American Psychological Association, 2023</blockquote>
+      <blockquote class="en-text">"Mindfulness meditation should be considered a first-line intervention for chronic stress management." — American Psychological Association, 2023</blockquote>
+      <h3 class="es-text">Cómo empezar hoy (protocolo mínimo efectivo)</h3>
+      <h3 class="en-text">How to start today (minimum effective protocol)</h3>
+      <ul>
+        <li class="es-text">Siéntate en posición cómoda, espalda recta</li>
+        <li class="en-text">Sit in a comfortable position, back straight</li>
+        <li class="es-text">Pon un temporizador de 10 minutos</li>
+        <li class="en-text">Set a 10-minute timer</li>
+        <li class="es-text">Enfoca tu atención en la respiración. Cuando divague, regresa sin juzgar</li>
+        <li class="en-text">Focus your attention on breathing. When it wanders, return without judgment</li>
+        <li class="es-text">La constancia importa más que la duración — todos los días supera a 30 min esporádicos</li>
+        <li class="en-text">Consistency matters more than duration — every day beats sporadic 30-minute sessions</li>
+      </ul>
+    </div>
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Herramientas recomendadas</div>
+      <div class="affiliate-title en-text">🛒 Recommended tools</div>
+      <div class="affiliate-sub es-text">Para establecer una práctica de meditación consistente</div>
+      <div class="affiliate-sub en-text">To build a consistent meditation practice</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">📱</div>
+          <div class="product-name">Calm Premium</div>
+          <div class="product-desc es-text">La app de meditación mejor valorada. Sesiones guiadas desde 3 min.</div>
+          <div class="product-desc en-text">The highest-rated meditation app. Guided sessions from 3 min.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🪷</div>
+          <div class="product-name es-text">Cojín de meditación</div>
+          <div class="product-name en-text">Meditation cushion</div>
+          <div class="product-desc es-text">Zafu de algodón orgánico. Postura correcta = práctica sostenida.</div>
+          <div class="product-desc en-text">Organic cotton zafu. Correct posture = sustained practice.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">📚</div>
+          <div class="product-name es-text">Libro: Mindfulness en la vida cotidiana</div>
+          <div class="product-name en-text">Book: Wherever You Go, There You Are</div>
+          <div class="product-desc es-text">Jon Kabat-Zinn — el padre del MBSR, el programa más estudiado.</div>
+          <div class="product-desc en-text">Jon Kabat-Zinn — the father of MBSR, the most studied program.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Fitness (Pasos) -->
+<div class="modal-overlay" id="modal-fitness1" onclick="closeModalOnBg(event, 'fitness1')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('fitness1')">×</button>
+    <div class="modal-cat es-text">💪 FITNESS · 14 JUN 2026</div>
+    <div class="modal-cat en-text">💪 FITNESS · JUN 14, 2026</div>
+    <h2 class="es-text">El mito de las 10,000 pasos: cuántos pasos realmente necesitas</h2>
+    <h2 class="en-text">The 10,000 steps myth: how many steps do you actually need</h2>
+    <div class="modal-meta es-text">⏱ 4 min lectura</div>
+    <div class="modal-meta en-text">⏱ 4 min read</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Lee, I.M. et al. (2019). "Association of Step Volume and Intensity With All-Cause Mortality in Older Women." <em>JAMA Internal Medicine</em>, 179(8), 1105–1112. DOI: 10.1001/jamainternmed.2019.0899</span>
+      <span class="en-text"> Lee, I.M. et al. (2019). "Association of Step Volume and Intensity With All-Cause Mortality in Older Women." <em>JAMA Internal Medicine</em>, 179(8), 1105–1112. DOI: 10.1001/jamainternmed.2019.0899</span>
+    </div>
+    <div class="modal-body">
+      <p class="es-text">La meta de 10,000 pasos no tiene origen científico: proviene de una campaña de marketing japonesa de los años 60 para vender un podómetro llamado "Manpo-kei" (contador de 10,000 pasos). ¿Pero qué dice la ciencia real?</p>
+      <p class="en-text">The 10,000 steps goal has no scientific origin: it comes from a 1960s Japanese marketing campaign to sell a pedometer called "Manpo-kei" (10,000 step counter). But what does real science say?</p>
+      <h3 class="es-text">El estudio de Harvard</h3>
+      <h3 class="en-text">The Harvard study</h3>
+      <p class="es-text">Lee et al. siguieron a 16,741 mujeres con un acelerómetro durante 4 años. Los resultados muestran que la mortalidad por todas las causas se reduce progresivamente hasta aproximadamente <strong>7,500 pasos/día</strong>, después de lo cual no hay beneficio adicional significativo.</p>
+      <p class="en-text">Lee et al. followed 16,741 women with an accelerometer for 4 years. Results show that all-cause mortality decreases progressively up to approximately <strong>7,500 steps/day</strong>, after which there is no significant additional benefit.</p>
+      <ul>
+        <li class="es-text">2,700 pasos/día: -41% de mortalidad vs. sedentarismo total</li>
+        <li class="en-text">2,700 steps/day: -41% mortality vs. total sedentarism</li>
+        <li class="es-text">4,400 pasos/día: -61% de mortalidad</li>
+        <li class="en-text">4,400 steps/day: -61% mortality</li>
+        <li class="es-text">7,500 pasos/día: -72% de mortalidad (beneficio máximo)</li>
+        <li class="en-text">7,500 steps/day: -72% mortality (maximum benefit)</li>
+        <li class="es-text">10,000 pasos/día: sin diferencia significativa adicional</li>
+        <li class="en-text">10,000 steps/day: no significant additional difference</li>
+      </ul>
+      <blockquote class="es-text">"No hay razón biológica por la que exactamente 10,000 sea el número mágico. El movimiento frecuente es lo importante, no un número arbitrario." — Catrine Tudor-Locke, investigadora de actividad física</blockquote>
+      <blockquote class="en-text">"There is no biological reason why exactly 10,000 is the magic number. Frequent movement is what matters, not an arbitrary number." — Catrine Tudor-Locke, physical activity researcher</blockquote>
+    </div>
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Herramientas de seguimiento</div>
+      <div class="affiliate-title en-text">🛒 Tracking tools</div>
+      <div class="affiliate-sub es-text">Para mantener un conteo preciso y motivarte</div>
+      <div class="affiliate-sub en-text">To keep an accurate count and stay motivated</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">⌚</div>
+          <div class="product-name">Fitbit Inspire 3</div>
+          <div class="product-desc es-text">Conteo de pasos, frecuencia cardíaca y sueño. La relación calidad-precio más citada en estudios.</div>
+          <div class="product-desc en-text">Step counting, heart rate and sleep. The most cost-effective ratio cited in studies.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">👟</div>
+          <div class="product-name es-text">Zapato de caminata ergonómico</div>
+          <div class="product-name en-text">Ergonomic walking shoe</div>
+          <div class="product-desc es-text">Diseño validado para reducir lesiones en caminata diaria.</div>
+          <div class="product-desc en-text">Design validated to reduce injuries in daily walking.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">💧</div>
+          <div class="product-name es-text">Botella de hidratación con trazador</div>
+          <div class="product-name en-text">Hydration bottle with tracker</div>
+          <div class="product-desc es-text">La hidratación es el factor más olvidado en el rendimiento físico.</div>
+          <div class="product-desc en-text">Hydration is the most overlooked factor in physical performance.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Health (Sueño) -->
+<div class="modal-overlay" id="modal-health1" onclick="closeModalOnBg(event, 'health1')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('health1')">×</button>
+    <div class="modal-cat es-text">🌿 SALUD GENERAL · 13 JUN 2026</div>
+    <div class="modal-cat en-text">🌿 GENERAL HEALTH · JUN 13, 2026</div>
+    <h2 class="es-text">Por qué dormir menos de 7 horas acelera el envejecimiento celular</h2>
+    <h2 class="en-text">Why sleeping less than 7 hours accelerates cellular aging</h2>
+    <div class="modal-meta es-text">⏱ 6 min lectura</div>
+    <div class="modal-meta en-text">⏱ 6 min read</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Irwin, M.R. (2019). "Sleep and inflammation: partners in sickness and in health." <em>Nature Reviews Immunology</em>, 19(11), 702–715. + Carroll, J.E. et al. (2016). "Insomnia and Telomere Length." <em>Sleep</em>, 39(3), 559–564.</span>
+      <span class="en-text"> Irwin, M.R. (2019). "Sleep and inflammation: partners in sickness and in health." <em>Nature Reviews Immunology</em>, 19(11), 702–715. + Carroll, J.E. et al. (2016). "Insomnia and Telomere Length." <em>Sleep</em>, 39(3), 559–564.</span>
+    </div>
+    <div class="modal-body">
+      <p class="es-text">Dormir mal no es solo cansancio. La privación crónica del sueño activa una cascada de mecanismos biológicos que aceleran el envejecimiento a nivel celular.</p>
+      <p class="en-text">Poor sleep isn't just fatigue. Chronic sleep deprivation activates a cascade of biological mechanisms that accelerate aging at the cellular level.</p>
+      <h3 class="es-text">Los telómeros: el reloj celular</h3>
+      <h3 class="en-text">Telomeres: the cellular clock</h3>
+      <p class="es-text">Carroll et al. midieron los telómeros de 524 adultos y encontraron que quienes dormían menos de 6 horas tenían telómeros significativamente más cortos — equivalentes a <strong>3–7 años adicionales de envejecimiento biológico</strong>.</p>
+      <p class="en-text">Carroll et al. measured the telomeres of 524 adults and found that those sleeping less than 6 hours had significantly shorter telomeres — equivalent to <strong>3–7 additional years of biological aging</strong>.</p>
+      <h3 class="es-text">El circuito inflamatorio</h3>
+      <h3 class="en-text">The inflammatory circuit</h3>
+      <ul>
+        <li class="es-text">El sueño insuficiente eleva la IL-6 y TNF-α (marcadores de inflamación sistémica)</li>
+        <li class="en-text">Insufficient sleep raises IL-6 and TNF-α (systemic inflammation markers)</li>
+        <li class="es-text">La inflamación crónica baja es la base del síndrome metabólico, enfermedad cardiovascular y diabetes tipo 2</li>
+        <li class="en-text">Chronic low-grade inflammation is the foundation of metabolic syndrome, cardiovascular disease, and type 2 diabetes</li>
+        <li class="es-text">Dormir 7–9 horas permite la eliminación de toxinas cerebrales por el sistema glinfático (funciona principalmente durante el sueño profundo)</li>
+        <li class="en-text">Sleeping 7–9 hours allows clearance of brain toxins through the glymphatic system (which functions primarily during deep sleep)</li>
+      </ul>
+      <blockquote class="es-text">"No existe un aspecto de la salud humana que no se beneficie de una noche de sueño adecuada." — Matthew Walker, profesor de neurociencia, UC Berkeley</blockquote>
+      <blockquote class="en-text">"There is no aspect of human health that doesn't benefit from a good night's sleep." — Matthew Walker, neuroscience professor, UC Berkeley</blockquote>
+    </div>
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Para mejorar tu sueño</div>
+      <div class="affiliate-title en-text">🛒 To improve your sleep</div>
+      <div class="affiliate-sub es-text">Productos con respaldo científico para el sueño</div>
+      <div class="affiliate-sub en-text">Science-backed sleep products</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">😴</div>
+          <div class="product-name es-text">Melatonina 0.5mg</div>
+          <div class="product-name en-text">Melatonin 0.5mg</div>
+          <div class="product-desc es-text">La dosis más efectiva según investigación. La mayoría de las marcas tienen dosis 10x más altas de lo necesario.</div>
+          <div class="product-desc en-text">The most effective dose per research. Most brands have doses 10x higher than needed.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🌙</div>
+          <div class="product-name es-text">Antifaz de sueño premium</div>
+          <div class="product-name en-text">Premium sleep mask</div>
+          <div class="product-desc es-text">La oscuridad total incrementa la producción de melatonina endógena hasta 2x.</div>
+          <div class="product-desc en-text">Total darkness increases endogenous melatonin production up to 2x.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">📖</div>
+          <div class="product-name es-text">Libro: Por qué dormimos</div>
+          <div class="product-name en-text">Book: Why We Sleep</div>
+          <div class="product-desc es-text">Matthew Walker — el libro de ciencia del sueño más vendido del mundo.</div>
+          <div class="product-desc en-text">Matthew Walker — the world's best-selling sleep science book.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Beauty 2 (Sunscreen) -->
+<div class="modal-overlay" id="modal-beauty2" onclick="closeModalOnBg(event, 'beauty2')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('beauty2')">×</button>
+    <div class="modal-cat es-text">💄 BELLEZA · 12 JUN 2026</div>
+    <div class="modal-cat en-text">💄 BEAUTY · JUN 12, 2026</div>
+    <h2 class="es-text">Protector solar: el único producto antiedad verdaderamente respaldado</h2>
+    <h2 class="en-text">Sunscreen: the only truly science-backed anti-aging product</h2>
+    <div class="modal-meta es-text">⏱ 5 min lectura</div>
+    <div class="modal-meta en-text">⏱ 5 min read</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Hughes, M.C. et al. (2013). "Sunscreen and Prevention of Skin Aging." <em>Annals of Internal Medicine</em>, 158(11), 781–790. DOI: 10.7326/0003-4819-158-11-201306040-00002</span>
+      <span class="en-text"> Hughes, M.C. et al. (2013). "Sunscreen and Prevention of Skin Aging." <em>Annals of Internal Medicine</em>, 158(11), 781–790. DOI: 10.7326/0003-4819-158-11-201306040-00002</span>
+    </div>
+    <div class="modal-body">
+      <p class="es-text">El estudio australiano de Hughes et al. es el único ensayo controlado aleatorizado a largo plazo (4.5 años) que midió el efecto del protector solar en el fotoenvejecimiento con análisis de piel bajo microscopio. El resultado fue contundente.</p>
+      <p class="en-text">Hughes et al.'s Australian study is the only long-term (4.5 year) randomized controlled trial that measured sunscreen's effect on photoaging with microscopic skin analysis. The result was unequivocal.</p>
+      <h3 class="es-text">Lo que encontraron</h3>
+      <h3 class="en-text">What they found</h3>
+      <ul>
+        <li class="es-text">Los usuarios diarios de SPF 30+ mostraron <strong>24% menos envejecimiento de la piel</strong> que los de uso discrecional</li>
+        <li class="en-text">Daily SPF 30+ users showed <strong>24% less skin aging</strong> than discretionary users</li>
+        <li class="es-text">El 90% del envejecimiento visible de la piel es causado por radiación UV (fotoenvejecimiento)</li>
+        <li class="en-text">90% of visible skin aging is caused by UV radiation (photoaging)</li>
+        <li class="es-text">Ningún retinol, ácido hialurónico ni otro ingrediente tiene evidencia comparable</li>
+        <li class="en-text">No retinol, hyaluronic acid, or other ingredient has comparable evidence</li>
+      </ul>
+      <blockquote class="es-text">"Si solo pudieras añadir un producto a tu rutina de skincare, debería ser protector solar. La evidencia es incontestable." — Dr. Henry Lim, dermatólogo, Henry Ford Health System</blockquote>
+      <blockquote class="en-text">"If you could only add one product to your skincare routine, it should be sunscreen. The evidence is incontestable." — Dr. Henry Lim, dermatologist, Henry Ford Health System</blockquote>
+      <h3 class="es-text">¿SPF mineral o químico?</h3>
+      <h3 class="en-text">Mineral or chemical SPF?</h3>
+      <p class="es-text">Ambos funcionan. El mineral (óxido de zinc/dióxido de titanio) actúa al instante y es mejor para pieles sensibles. El químico (avobenzona, octinoxato) es más cosmético y menos blanco. Lo más importante: el que uses diariamente.</p>
+      <p class="en-text">Both work. Mineral (zinc oxide/titanium dioxide) acts instantly and is better for sensitive skin. Chemical (avobenzone, octinoxate) is more cosmetically elegant and less white. Most importantly: the one you use daily.</p>
+    </div>
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Protectores solares recomendados</div>
+      <div class="affiliate-title en-text">🛒 Recommended sunscreens</div>
+      <div class="affiliate-sub es-text">SPF 30+ para uso diario, ligeros y no grasosos</div>
+      <div class="affiliate-sub en-text">SPF 30+ for daily use, lightweight and non-greasy</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">🌞</div>
+          <div class="product-name">SPF 50 mineral ligero</div>
+          <div class="product-desc es-text">Óxido de zinc 20%, sin fragancia, compatible con piel grasa y sensible.</div>
+          <div class="product-desc en-text">20% zinc oxide, fragrance-free, compatible with oily and sensitive skin.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">✨</div>
+          <div class="product-name">SPF 50 tinted</div>
+          <div class="product-desc es-text">Con tinte mineral para cubrir imperfecciones. Doble función.</div>
+          <div class="product-desc en-text">With mineral tint to cover imperfections. Double function.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🧴</div>
+          <div class="product-name">SPF 30 corporal</div>
+          <div class="product-desc es-text">Para todo el cuerpo. No proteger manos y escote es el error más común.</div>
+          <div class="product-desc en-text">For the whole body. Not protecting hands and décolleté is the most common mistake.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Mental 2 (Forest Bath) -->
+<div class="modal-overlay" id="modal-mental2" onclick="closeModalOnBg(event, 'mental2')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('mental2')">×</button>
+    <div class="modal-cat es-text">🧠 BIENESTAR · 11 JUN 2026</div>
+    <div class="modal-cat en-text">🧠 WELLNESS · JUN 11, 2026</div>
+    <h2 class="es-text">El "baño de bosque" japonés que reduce la presión arterial en 2 horas</h2>
+    <h2 class="en-text">The Japanese "forest bath" that lowers blood pressure in 2 hours</h2>
+    <div class="modal-meta es-text">⏱ 4 min lectura</div>
+    <div class="modal-meta en-text">⏱ 4 min read</div>
+    <div class="modal-source-box">
+      <strong class="es-text">📚 Fuente principal:</strong>
+      <strong class="en-text">📚 Main source:</strong>
+      <span class="es-text"> Li, Q. et al. (2011). "Effect of phytoncide from trees on human natural killer cell function." <em>International Journal of Immunopathology and Pharmacology</em>, 22(4), 951–959. + Hansen, M.M. et al. (2017). <em>Frontiers in Psychology</em>, 8, 850.</span>
+      <span class="en-text"> Li, Q. et al. (2011). "Effect of phytoncide from trees on human natural killer cell function." <em>International Journal of Immunopathology and Pharmacology</em>, 22(4), 951–959. + Hansen, M.M. et al. (2017). <em>Frontiers in Psychology</em>, 8, 850.</span>
+    </div>
+    <div class="modal-body">
+      <p class="es-text">El Shinrin-yoku (森林浴, "baño de bosque") es una práctica japonesa que consiste en caminar lentamente entre árboles, prestando atención consciente a los sentidos. Desde 2004, el gobierno japonés financia investigación científica sobre sus efectos, y los resultados son consistentemente notables.</p>
+      <p class="en-text">Shinrin-yoku (森林浴, "forest bathing") is a Japanese practice of walking slowly among trees, consciously attending to the senses. Since 2004, the Japanese government has funded scientific research on its effects, and the results are consistently remarkable.</p>
+      <h3 class="es-text">Efectos medidos en 2 horas</h3>
+      <h3 class="en-text">Effects measured in 2 hours</h3>
+      <ul>
+        <li class="es-text">Reducción de cortisol salival: 13.4% (vs. 2.9% en entorno urbano)</li>
+        <li class="en-text">Salivary cortisol reduction: 13.4% (vs. 2.9% in urban setting)</li>
+        <li class="es-text">Presión sistólica: -6 mmHg en promedio</li>
+        <li class="en-text">Systolic pressure: -6 mmHg on average</li>
+        <li class="es-text">Frecuencia cardíaca: reducción del 4%</li>
+        <li class="en-text">Heart rate: 4% reduction</li>
+        <li class="es-text">Células NK (inmunidad natural): aumento del 50% que persiste 7 días</li>
+        <li class="en-text">NK cells (natural immunity): 50% increase that persists 7 days</li>
+      </ul>
+      <h3 class="es-text">¿Por qué funciona? Los fitoncidas</h3>
+      <h3 class="en-text">Why does it work? Phytoncides</h3>
+      <p class="es-text">Los árboles emiten compuestos orgánicos volátiles llamados <strong>fitoncidas</strong> (principalmente α-pineno y β-pineno) que al inhalarlos activan el sistema nervioso parasimpático — el modo "descanso y digestión" que contrarresta el estrés crónico.</p>
+      <p class="en-text">Trees emit volatile organic compounds called <strong>phytoncides</strong> (mainly α-pinene and β-pinene) which, when inhaled, activate the parasympathetic nervous system — the "rest and digest" mode that counteracts chronic stress.</p>
+      <blockquote class="es-text">"No necesitas un bosque denso. Incluso un parque urbano con árboles maduros produce efectos medibles en 20 minutos." — Frontiers in Psychology, 2019</blockquote>
+      <blockquote class="en-text">"You don't need a dense forest. Even an urban park with mature trees produces measurable effects in 20 minutes." — Frontiers in Psychology, 2019</blockquote>
+    </div>
+    <div class="affiliate-section">
+      <div class="affiliate-title es-text">🛒 Para tu práctica de naturaleza</div>
+      <div class="affiliate-title en-text">🛒 For your nature practice</div>
+      <div class="affiliate-sub es-text">Todo lo que necesitas para empezar hoy</div>
+      <div class="affiliate-sub en-text">Everything you need to start today</div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-emoji">🌲</div>
+          <div class="product-name es-text">Difusor de aceite de pino</div>
+          <div class="product-name en-text">Pine oil diffuser</div>
+          <div class="product-desc es-text">α-pineno y β-pineno — los mismos fitoncidas que emiten los árboles, para casa.</div>
+          <div class="product-desc en-text">α-pinene and β-pinene — the same phytoncides trees emit, for home use.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">🎧</div>
+          <div class="product-name es-text">Sonidos de bosque (app)</div>
+          <div class="product-name en-text">Forest sounds (app)</div>
+          <div class="product-desc es-text">Estudio 2021: los sonidos naturales solos reducen el estrés en un 37%.</div>
+          <div class="product-desc en-text">2021 study: natural sounds alone reduce stress by 37%.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-emoji">📚</div>
+          <div class="product-name">Forest Bathing — Dr. Qing Li</div>
+          <div class="product-desc es-text">El libro del investigador que inició el campo. Guía práctica completa.</div>
+          <div class="product-desc en-text">The book by the researcher who started the field. Complete practical guide.</div>
+          <a href="TU-LINK-AFILIADO-AQUI" class="product-btn" target="_blank">Ver →</a>
+        </div>
+      </div>
+      <div class="affiliate-disclaimer es-text">* Enlace de afiliado — comisión sin costo extra para ti.</div>
+      <div class="affiliate-disclaimer en-text">* Affiliate link — commission at no extra cost to you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ JS ═══════════════ -->
+<script>
+  // Language toggle
+  let currentLang = 'es';
+  function toggleLang() {
+    const body = document.getElementById('body');
+    if (currentLang === 'es') {
+      body.classList.remove('lang-es');
+      body.classList.add('lang-en');
+      currentLang = 'en';
+      document.documentElement.lang = 'en';
+      document.title = 'VitaGlow · Health & Beauty with Science';
+    } else {
+      body.classList.remove('lang-en');
+      body.classList.add('lang-es');
+      currentLang = 'es';
+      document.documentElement.lang = 'es';
+      document.title = 'VitaGlow · Salud & Belleza con Ciencia';
+    }
+  }
+
+  // Category filter
+  function filterCategory(cat) {
+    // ── Filtrar artículos inline (los dos expandidos) ──
+    document.querySelectorAll('.inline-article').forEach(article => {
+      if (cat === 'all' || article.dataset.inlinecat === cat) {
+        article.style.display = '';
+      } else {
+        article.style.display = 'none';
+      }
+    });
+
+    // ── Filtrar tarjetas del grid ──
+    const cards = document.querySelectorAll('#articlesGrid .card');
+    let visibleCount = 0;
+    cards.forEach(card => {
+      if (cat === 'all' || card.dataset.cat === cat) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // ── Mensaje si no hay tarjetas en esa categoría ──
+    let emptyMsg = document.getElementById('emptyCategory');
+    if (!emptyMsg) {
+      emptyMsg = document.createElement('div');
+      emptyMsg.id = 'emptyCategory';
+      emptyMsg.style.cssText = 'grid-column:1/-1;text-align:center;padding:40px 20px;font-family:sans-serif;color:#aaa;font-size:15px;';
+      document.getElementById('articlesGrid').appendChild(emptyMsg);
+    }
+    if (visibleCount === 0) {
+      const catNames = { health:'Salud', beauty:'Belleza', mental:'Bienestar', fitness:'Fitness' };
+      emptyMsg.innerHTML = `<div style="font-size:36px;margin-bottom:12px;">📝</div>
+        <span class="es-text">Próximamente más artículos de <strong>${catNames[cat] || cat}</strong>. ¡Vuelve pronto!</span>
+        <span class="en-text">More <strong>${catNames[cat] || cat}</strong> articles coming soon. Check back!</span>`;
+      emptyMsg.style.display = '';
+    } else {
+      emptyMsg.style.display = 'none';
+    }
+
+    // ── Marcar botón activo (el clic puede venir del span interno) ──
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    let target = event.target;
+    while (target && !target.classList.contains('nav-btn')) target = target.parentElement;
+    if (target) target.classList.add('active');
+
+    // ── Scroll a la sección de artículos ──
+    document.getElementById('articles').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // Modal open/close
+  function openModal(id) {
+    document.getElementById('modal-' + id).classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(id) {
+    document.getElementById('modal-' + id).classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  function closeModalOnBg(event, id) {
+    if (event.target === document.getElementById('modal-' + id)) {
+      closeModal(id);
+    }
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.open').forEach(m => {
+        m.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    }
+  });
+
+  // Smooth scroll
+  document.querySelector('.hero-cta') && document.querySelector('.hero-cta').addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('articles').scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
+</body>
+</html>
